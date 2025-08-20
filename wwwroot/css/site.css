@@ -29,3 +29,42 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.footer {
+    border-top: 1px solid gold;
+    float: none;
+    margin-top: 80px;
+    padding-top: 90px;
+}
+h1{
+    text-align : center;
+}
+strong {
+    font-size : 30px;
+    font-style : italic;
+}
+.logo {
+    float : left;
+    width: 13%;
+}
+.col {
+    width: 40%;
+    display: flex;
+}
+#text-center {
+    width: 100px;
+    margin: auto;
+}
+.contact{
+    max-width : auto;
+    height : 100px;
+}
+img{
+    height : 200px;
+    width : 300px;
+}
+#bir {
+    background-image: url(/css/contact.png);
+    background-size : 500px;
+    
+}
