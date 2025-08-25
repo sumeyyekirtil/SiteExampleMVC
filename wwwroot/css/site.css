@@ -1,5 +1,5 @@
 html {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 @media (min-width: 768px) {
@@ -31,7 +31,7 @@ body {
 }
 
 .display-6{
-    color : whitesmoke;
+    color : skyblue;
     text-align : center;
 }
 h1{
@@ -43,8 +43,8 @@ strong {
     font-style : italic;
 }
 .logo {
-    float: left;
-    object-fit: inherit;
+    float : left;
+    object-fit : contain;
 }
 #text-center {
     width: 100%;
@@ -81,6 +81,7 @@ img {
 }
 strong{
     color : deepskyblue;
+    font-size : large;
 }
 .contact{
     object-fit : contain;
@@ -96,11 +97,10 @@ strong{
     text-align: center;
     float: inline-end;
     width: 60%;
-    padding: 15px 40px;
-    font-size: 18px;
+    padding: 20px 30px;
+    font-size: 22px;
     color: #777777;
-    border: 1px solid #c2c2c2;
-    margin: 0;
+    border: 2px solid #c2c2c2;
 }
 #col {
     border-right: 1px solid;
@@ -116,9 +116,9 @@ strong{
     object-fit: inherit;
 }
 .resim {
-    object-fit : contain;
-    
+    height : inherit;
 }
-.col-md {
-    margin-bottom : 40px;
+.col-2 {
+    height: 40px;
+    width : 100%;
 }

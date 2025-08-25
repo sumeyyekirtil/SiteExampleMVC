@@ -2,6 +2,8 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using SiteExampleMVC.Models;
 
+//view lerde @* *@ arasýna yazýlan kod bloðu yorum satýrýdýr
+
 namespace SiteExampleMVC.Controllers
 {
     public class HomeController : Controller
@@ -13,7 +15,7 @@ namespace SiteExampleMVC.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index() //go to view ile görünüm koduna gidiyoruz
         {
             return View();
         }
