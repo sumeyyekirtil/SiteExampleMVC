@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SiteExampleMVC.styles.css" asp-append-version="true" />
 </head>
-<body>
+<body class="sayfa">
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
@@ -31,16 +31,19 @@
             </div>
         </nav>
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top">
+        <br>
         <div class="col-md-2">
             &copy; 2025 - MVC ile Site Örneği - <a asp-area="" asp-controller="Home" asp-action="Privacy">Gizlilik</a>
             <a style="color: #326fc8; text-align: right" asp-controller="Home" asp-action="Privacy">Kvkk Sözleşmesi</a>
+            <br>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
