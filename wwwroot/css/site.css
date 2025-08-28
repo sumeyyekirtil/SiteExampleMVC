@@ -17,11 +17,6 @@ html {
   min-height: 100%;
 }
 
-body {
-  width :100%;
-  height : auto;
-}
-
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
   color: var(--bs-secondary-color);
   text-align: end;
@@ -147,5 +142,8 @@ p {
     padding: inherit;
 }
 .sayfa {
-    background-color: #258bad;
+    background-image: url(/css/d7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /*resmi doldurmak*/
+    background-position: center;
 }
