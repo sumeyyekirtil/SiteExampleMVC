@@ -18,7 +18,8 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+  width :100%;
+  height : auto;
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -103,19 +104,23 @@ img {
 }
 #col {
     border-right: 1px solid;
-    text-align : justify;
-    border-bottom : 1px solid;
-    border-top : 1px solid;
+    text-align: justify;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
     border-left: 1px solid;
     padding: 3px;
+    line-height : 30px;
+    width: 10% contain; /*yatay geniþliði ayarlama ve sýðdýrma*/
+    text-align: center;
 }
 .row-cols-3 {
     display: flex;
-    flex-wrap: nowrap;
     object-fit: inherit;
+    vertical-align: inherit;
 }
 .resim {
-    height : inherit;
+    height : 75px;
+    font-weight : 50;
 }
 .col-2 {
     height: 60px;
@@ -125,7 +130,9 @@ img {
     text-align : center;
     position : inherit; 
 }
-
+.card {
+    background-color: #c5d7ec;
+}
 ol {
     margin-bottom: inherit; /*satýr arasýný bozmadan azalttý (sýðdýr)*/
     font-size: large; /*yazý boyutu ayarlama*/
@@ -140,7 +147,5 @@ p {
     padding: inherit;
 }
 .sayfa {
-    width: initial;
-    height: 100%;
-    background-image: url(/css/little-prens.png);
+    background-color: #258bad;
 }
