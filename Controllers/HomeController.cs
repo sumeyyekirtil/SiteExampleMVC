@@ -19,11 +19,17 @@ namespace SiteExampleMVC.Controllers
         {
             return View();
         }
-
+        //like it  kitap film dizi hobi
         public IActionResult Privacy()
         {
             return View();
         }
+
+        public IActionResult Education()
+        {
+            return View();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
